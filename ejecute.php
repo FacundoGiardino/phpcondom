@@ -17,3 +17,13 @@ function getDirContents ($dir, &$results = array()) {
 echo "<pre>";
 print_r(getDirContents('./'));
 echo "</pre>";
+
+
+/*
+if (!empty($_GET)) {
+
+	foreach ($_GET AS $key => $value) {
+		$_GET[$key] = htmlentities(addslashes($value));
+	}
+}
+*/
